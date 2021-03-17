@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+    border: 0;
+
+    list-style: none;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+
+body {
+	color: rgb(222, 255, 7);
+	background-color: rgb(10, 217, 240);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+
+}
+
+div#container {    
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+    color: rgb(222, 255, 7);
+	background-color: rgb(19, 137, 255);
+    min-width: 300px;
+    max-width: 960px;
+    box-shadow: 3px 0 10px #555;
+    position: relative;
+}
+
+h1,h2,p,a{
+    color: rgb(222, 255, 7);
+    text-decoration: none;
+    font-size: medium;
+}
+h1{
+    background-image: url(bmi.jpg);
+    height: 200px;
+    text-align: center;
+    font-size: 50px;
+    color: yellow;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+
+
+.nav {
+    padding-left: 0;
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    background-color: rgb(213, 74, 19);
+    border-radius: 45px;
+}
+
+li {
+    display: list-item;
+    width: 100%;
+}
+
+
+nav ul li a {
+    display: block;
+    color: rgb(13, 201, 243);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    transition: background-color 1s;
+    background-color: transparent;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+#homep {
+    color: rgb(242, 255, 0);
+}
+
+p{
+    padding: 5px 50px 5px 50px;
+}
+
+footer{
+    margin-top: 10px;
+    text-align: center;
+}
+
+form>p>label:FIRST-CHILD, form>p>span {
+    width: 30%;
+    display: inline-block;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+form input, form select {
+    height: 18px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+}
+
+form input[id="naam"]{
+    margin-top: 15px;
+}
+
+form input[type="submit"], .left {
+    margin-left: calc(30% + 5px);
+    height: auto;
+    margin-top: 25px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+td, th {
+    padding: 5px 25px 5px 0;
+}
+
+th {
+    text-align: left;
+}

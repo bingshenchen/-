@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lorem</title>
+</head>
+<body>
+
+    <div id="container">
+        <header>
+            <h1>Lorem</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="toevoeg.html" id="homep">Toevoeg</a></li>
+                    <li><a href="overview.html">Overzicht</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <form method="POST" action="Controller?command=add" novalidate>
+                <p>
+                    <label for="Naam">Naam:</label>
+                    <input id="naam" name="naam" type="text">
+                </p>
+    
+                <p>
+                    <label for="Leeftijd">GeboorteDatum:</label>
+                    <input id="leeftijd" name="leeftijd" type="date">
+                </p>
+    
+                <p>
+                    <label for="Geslacht">Geslacht:</label>
+                    <input id="geslacht" name="geslacht" value="vrouw" type="radio">vrouw
+                    <input id="geslacht" name="geslacht" value="man" type="radio">man
+                </p>
+    
+                <p>
+                    <label for="Hoogte">Hoogte:</label> 
+                    <input id="hoogte" name="hoogte" type="number">cm
+                </p>
+    
+                <p>
+                    <label for="Gewicht">Gewicht:</label>
+                    <input id="gewicht" name="gewicht" type="number"> kg
+                </p>
+    
+                <p>
+                    <label for="email">E-mail:</label> 
+                    <input id="email" name="email" type="email">
+                </p>
+    
+                <p>
+                    <input type="submit" value="Toevoeg" id="submit">
+                </p>
+    
+            </form>
+        </main>
+    
+        <footer>©&Ucll WebOntwikkeling 2 - 2020-2021</footer>
+    </div>
+   
+</body>
+</html>
